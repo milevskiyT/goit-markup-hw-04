@@ -105,35 +105,109 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.conect-list {
-  display: flex;
-}
-.socweb {
-}
+
 .container-foter {
   display: flex;
   align-items: baseline;
 }
-.adresscont {
-}
-.fottext {
-}
+
 .conect {
   margin-left: 70px;
 }
-.conect-list {
-  margin-top: 20px;
+.container .list-social {
+  display: flex;
+  align-items: baseline;
   gap: 10px;
+  margin-top: 20px;
 }
-.icon-foter {
+.footer1 .link1 {
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
   border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
   fill: var(--primary-background-color);
 }
-.icon-foter:hover,
-.icon-foter:focus {
+.footer1 .link1:hover,
+.footer1 .link1:focus {
   background-color: rgba(33, 150, 243, 1);
   fill: rgba(255, 255, 255, 1);
+}
+.footer2 .link2 {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-background-color);
+  fill: var(--color-mini-iconrgbargba);
+}
+.footer2 .link2:hover,
+.footer2 .link2:focus {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
+}
+.footer2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.list-comandos {
+  display: flex;
+}
+
+/* .icon-social {
+  width: 44px;
+  height: 44px;
+  background-color: var(--primary-background-color);
+  border-radius: 50px;
+  fill: var(--color-mini-iconrgbargba);
+}
+.social {
+  margin-left: 12px;
+  margin-top: 12px;
+  width: 20px;
+  height: 20px;
+  align-content: center;
+}
+
+.icon-social:hover {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
+}
+
+.teamicon {
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 16px;
+} */
+
+.footer3 .link3 {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(175, 177, 184, 1);
+  background-color: var(--primary-background-color);
+  fill: var(--color-mini-iconrgbargba);
+  gap: 30px;
+}
+.footer3 .link3:hover,
+.footer3 .link3:focus {
+  fill: rgba(33, 150, 243, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+.footer3 {
+  display: flex;
+  justify-content: center;
+}
+.list-social3 {
+  display: flex;
+  gap: 30px;
 }
