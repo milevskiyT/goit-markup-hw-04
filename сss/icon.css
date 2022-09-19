@@ -163,10 +163,6 @@
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(33, 150, 243, 1);
 }
-.footer3 {
-  display: flex;
-  justify-content: center;
-}
 .list-social3 {
   display: flex;
   gap: 30px;

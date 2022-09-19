@@ -198,11 +198,11 @@ ul {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/Img.jpg);
   max-width: 1600px;
-  height: 600px;
+  min-height: 600px;
   background-repeat: no-repeat;
-  object-fit: cover;
   background-color: var(--background-overlay);
-  background-size: auto;
+  background-size: cover;
+  background-position: center;
   margin: 0 auto;
   text-align: center;
   padding-top: 200px;
