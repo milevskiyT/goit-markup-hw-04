@@ -118,33 +118,6 @@
   display: flex;
 }
 
-/* .icon-social {
-  width: 44px;
-  height: 44px;
-  background-color: var(--primary-background-color);
-  border-radius: 50px;
-  fill: var(--color-mini-iconrgbargba);
-}
-.social {
-  margin-left: 12px;
-  margin-top: 12px;
-  width: 20px;
-  height: 20px;
-  align-content: center;
-}
-
-.icon-social:hover {
-  background-color: rgba(33, 150, 243, 1);
-  fill: rgba(255, 255, 255, 1);
-}
-
-.teamicon {
-  display: flex;
-  gap: 10px;
-  margin-left: 30px;
-  margin-top: 16px;
-} */
-
 .footer3 .link3 {
   width: 170px;
   height: 92px;
