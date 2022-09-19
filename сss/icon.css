@@ -12,19 +12,27 @@
   --color-border-heade: rgba(236, 236, 236, 1);
   --border-porfolio: rgba(238, 238, 238, 1);
   --color-mini-iconrgbargba: rgba(175, 177, 184, 1);
+  --background-overlay: rgba(196, 196, 196, 1);
 }
 
 .icon-nav {
   display: block;
   height: 20px;
-  width: 20px;
+  width: 16px;
+  margin-right: 10px;
+  fill: var(--hover-icon);
+}
+.icon-nav-list {
+  display: block;
+  height: 16px;
+  width: 12px;
   margin-right: 10px;
   fill: var(--hover-icon);
 }
 
 .link-nav {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .link-nav:hover svg,
 .link-nav:focus svg {
@@ -32,66 +40,17 @@
 }
 
 .icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 .antena {
   width: 70px;
   height: 70px;
-  margin-left: 100px;
-  margin-top: 25px;
-  background-color: #f5f4fa;
-}
-.icon-social {
-  width: 44px;
-  height: 44px;
-  background-color: var(--primary-background-color);
-  border-radius: 50px;
-  fill: var(--color-mini-iconrgbargba);
-}
-.social {
-  margin-left: 12px;
-  margin-top: 12px;
-  width: 20px;
-  height: 20px;
-  align-content: center;
-}
-
-.icon-social:hover {
-  background-color: rgba(33, 150, 243, 1);
-  fill: rgba(255, 255, 255, 1);
-}
-
-.teamicon {
-  display: flex;
-  gap: 10px;
-  margin-left: 30px;
-  margin-top: 16px;
-}
-.client-border {
-  display: block;
-  width: 170px;
-  height: 92px;
-  border: 1px solid rgba(175, 177, 184, 1);
-}
-.client-icon {
-  width: 106px;
-  height: 60px;
-  margin: 16px 32px;
-  background-color: var(--primary-background-color);
-  fill: var(--color-mini-iconrgbargba);
-}
-.client-icon:hover,
-.client-icon:focus {
-  fill: rgba(33, 150, 243, 1);
-}
-.client-border:hover {
-  border: 1px solid rgba(33, 150, 243, 1);
-}
-.clientfoot {
-  display: flex;
-  gap: 30px;
 }
 .pading-list {
   margin-bottom: 50px;
@@ -101,7 +60,7 @@
   color: var(--primary-background-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -196,6 +155,7 @@
   background-color: var(--primary-background-color);
   fill: var(--color-mini-iconrgbargba);
   gap: 30px;
+  border-radius: 4px;
 }
 .footer3 .link3:hover,
 .footer3 .link3:focus {

@@ -10,6 +10,7 @@
   --second-background: rgba(245, 244, 250, 1);
   --color-border-heade: rgba(236, 236, 236, 1);
   --border-porfolio: rgba(238, 238, 238, 1);
+  --background-overlay: rgba(196, 196, 196, 1);
 }
 
 body {
@@ -195,14 +196,14 @@ ul {
 /* hero section */
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/work.png);
+    url(../images/Img.jpg);
   max-width: 1600px;
   height: 600px;
   background-repeat: no-repeat;
   object-fit: cover;
-  background-color: rgba(47, 48, 58, 0.4);
+  background-color: var(--background-overlay);
   background-size: auto;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -300,6 +301,7 @@ ul {
 }
 .team-work {
   margin-top: 10px;
+  margin-bottom: 16px;
   text-align: center;
   font-size: 16px;
   line-height: 1.2;
@@ -388,8 +390,11 @@ address {
 .flex-elements {
   background-color: var(--primary-background-color);
 }
-.flex-elements:hover,
-.flex-elements:focus {
+.link-filter {
+  display: block;
+}
+.link-filter:hover,
+.link-filter:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
