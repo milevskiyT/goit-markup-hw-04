@@ -140,3 +140,63 @@
   display: flex;
   gap: 30px;
 }
+/*  5 дз */
+.fotowork {
+  display: block;
+}
+.box-thumb {
+  display: block;
+  position: relative;
+}
+.box-thumb::before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+/* .box-thumb:hover::before {
+  opacity: 1;
+} */
+.text-programe {
+  margin-top: 27px;
+  padding-bottom: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+/* PORTFOLIO */
+.animation-portfolio {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-text {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: var(--primary-background-color);
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flex-elements:hover .portfolio-text {
+  transform: translateY(0);
+  background-color: rgba(33, 150, 243, 0.9);
+}
+/* PORTFOLIO */

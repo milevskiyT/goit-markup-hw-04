@@ -15,6 +15,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./сss/styles.css" />
     <link rel="stylesheet" href="./сss/icon.css" />
   </head>
@@ -72,8 +77,15 @@
 
           <ul class="foto-link">
             <li class="flex-elements">
-              <a href="" class="link-filter"
-                ><img src="./images/img1.jpg" alt="Веб-сайт" width="370" height="295" />
+              <a href="" class="link-filter">
+                <div class="animation-portfolio">
+                  <img src="./images/img1.jpg" alt="Веб-сайт" width="370" height="295" />
+                  <p class="portfolio-text">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                    приватну особу.
+                  </p>
+                </div>
                 <div class="border-foto">
                   <h2 class="filter">Технокряк</h2>
                   <p class="filter-foto">Веб-сайт</p>
@@ -222,5 +234,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
