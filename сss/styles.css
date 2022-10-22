@@ -88,7 +88,7 @@ ul {
 /*  полоска */
 .link {
   position: relative;
-  padding: 34px 0;
+  padding: 32px 0;
 }
 .curent::after {
   content: '';
@@ -99,6 +99,7 @@ ul {
   bottom: 0;
   background-color: var(--logo-link-color);
   border-radius: 2px;
+  margin-bottom: -1px;
 }
 /* полоска */
 .site-nav .link {
@@ -112,6 +113,8 @@ ul {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--logo-link-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* tel+adress */
 .auth-nav .link-nav {
@@ -125,6 +128,8 @@ ul {
 .link-nav:hover,
 .link-nav:focus {
   color: var(--logo-link-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link.curent {
   color: var(--logo-link-color);
@@ -147,6 +152,8 @@ ul {
   color: var(--primary-background-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-filter {
   text-decoration: none;
@@ -180,15 +187,13 @@ ul {
 .logo-fotweb {
   color: var(--logo-link-color);
 }
-
-.logofot:focus {
-  color: var(--logo-link-color);
-}
 /* adress */
 
 .footer-nav .footer-link:hover,
 .footer-nav .footer-link:focus {
   color: var(--logo-link-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-nav :not(:first-child) {
   margin-top: 9px;
@@ -245,6 +250,8 @@ ul {
   color: var(--primary-background-color);
   background-color: var(--active-button);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* пер(peculiarities)-особливості  */
 /* section 2  */
@@ -414,6 +421,8 @@ address {
 .link-filter:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logoclas {
   margin-bottom: 20px;

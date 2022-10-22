@@ -60,7 +60,7 @@
           вашого бізнесу
         </h1>
         <!-- TO DO BUTTON -->
-        <button type="button" class="button-hero button-portfolio">Замовити послугу</button>
+        <button type="button" class="button-hero button-portfolio" data-modal-open>Замовити послугу</button>
       </section>
       <!-- hiden after -->
       <section class="textclass section">
@@ -114,18 +114,30 @@
           </ul>
         </div>
       </section>
-      <section class="section-list">
-        <div class="container">
-          <h2 class="section-tittle">Чим ми займаємося</h2>
-          <ul class="boxcard">
-            <li class="fotowork"><img src="./images/box1.jpg" alt="Проект з 0" width="370" /></li>
-            <li class="fotowork">
-              <img src="./images/box2.jpg" alt="Теми на любий вибір" width="370" />
-            </li>
-            <li class="fotowork"><img src="./images/box3.jpg" alt="Дизайн" width="370" /></li>
-          </ul>
+     <section class="section-list">
+    <div class="container">
+      <h2 class="section-tittle">Чим ми займаємося</h2>
+      <ul class="boxcard">
+        <li class="fotowork">
+          <div class="box-thumb">
+            <img src="./images/box1.jpg" alt="Проект з 0" width="370" />
+          <p class="text-programe">Десктопні додатки</p>
+          </div>
+        </li>
+        <li class="fotowork">
+          <div class="box-thumb">
+            <img src="./images/box2.jpg" alt="Теми на любий вибір" width="370" />
+            <p class="text-programe">Мобільні додатки</p>
+          </div>
+        </li>
+        <li class="fotowork">
+          <div class="box-thumb"><img src="./images/box3.jpg" alt="Дизайн" width="370" />
+          <p class="text-programe">Дизайнерські рішення</p>
+        </li>
         </div>
-      </section>
+      </ul>
+    </div>
+  </section>
       <!-- Comand -->
       <section class="section-team section">
         <div class="container">
@@ -399,29 +411,12 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>X</button>
+   </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
-  <section class="section-list">
-    <div class="container">
-      <h2 class="section-tittle">Чим ми займаємося</h2>
-      <ul class="boxcard">
-        <li class="fotowork">
-          <div class="box-thumb"><img src="./images/box1.jpg" alt="Проект з 0" width="370" />
-          <p class="text-programe">Десктопні додатки</p>
-          </div>
-        </li>
-        <li class="fotowork">
-          <div class="box-thumb">
-            <img src="./images/box2.jpg" alt="Теми на любий вибір" width="370" />
-            <p class="text-programe">Мобільні додатки</p>
-          </div>
-        </li>
-        <li class="fotowork">
-          <div class="box-thumb"><img src="./images/box3.jpg" alt="Дизайн" width="370" />
-          <p class="text-programe">Дизайнерські рішення</p>
-        </li>
-        </div>
-      </ul>
-    </div>
-  </section>
 </html>
+
